@@ -162,11 +162,11 @@
       <div class="eyebrow">GET IN TOUCH</div>
       <h2>Have a spatial data problem? Let's scope it properly.</h2>
       <p class="section-sub">Tell us about your data, your systems, and what's not working — we'll respond with a clear, specific point of view, not a generic sales pitch.</p>
-      <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Request received';">
-        <input type="text" placeholder="Name" required>
-        <input type="text" placeholder="Organization" required>
-        <input type="email" placeholder="Email" required>
-        <textarea rows="4" placeholder="Briefly describe your GIS / spatial data challenge"></textarea>
+      <form class="contact-form" action="https://formspree.io/f/mzedravj" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="organization" placeholder="Organization" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea rows="4" name="message" placeholder="Briefly describe your GIS / spatial data challenge"></textarea>
         <button type="submit" class="btn btn-primary" style="width:fit-content;border:none;">Send request →</button>
       </form>
     </div>

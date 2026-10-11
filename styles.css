@@ -292,7 +292,7 @@
     font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--cyan); opacity:.75;
     border-top:1px solid var(--line); padding-top:18px;
   }
-
+.meta-block .val a{color:var(--cyan); text-decoration:none; transition:color .2s;}
   footer{
     padding:30px 6vw; display:flex; flex-direction:column; justify-content:center; align-items:center;
     text-align:center; gap:6px;
